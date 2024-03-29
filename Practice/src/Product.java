@@ -7,10 +7,10 @@ public class Product {
 	private String productName;
 	private double price;
 	private int quantity;
-	private double totalAmount;
+	public double totalAmount;
 
 	
-	/* Constructor of the class */
+	/* Constructor of the class 
 	
 	public Product(float productId,String productName,double price,int quantity) {
 		this.productId=productId;
@@ -19,6 +19,7 @@ public class Product {
 		this.quantity=quantity;		
 	}
 	
+	*/
 	/* Generating the new product id */
 	
 	public float GetNewProductID() {
@@ -67,7 +68,7 @@ public class Product {
 	
 	/* Getting the total amount   */
 	
-	public double getTotal(double price,int quantity) {
+	private double getTotal(double price,int quantity) {
 		totalAmount = this.price*this.quantity;
 		return totalAmount;
 	}
