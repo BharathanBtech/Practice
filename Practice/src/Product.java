@@ -1,5 +1,5 @@
 
-public class Product {
+ public class Product {
 	
 	/* Declaring the variables required */
 	
